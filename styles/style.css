@@ -4,16 +4,76 @@
 /* common style var*/
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #AAAAAA;
+    background-color: #fefefe;
 }
 
 :root{
     --main-color: #E02C6D;
-    --box-shadow: 5px 5px 5px rgb(244, 238, 238);
-    --border-radius: 10px;
+    --box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    --border-radius: 5px;
+    --box-background-color: #FFFFFF;
+    --white-text:#FFFFFF;
+    --main-with: 1047px;
 }
 
 /* common style start*/
 main{
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    max-width: var(--main-with);
+}
+
+/* banner style start */
+.banners{
+    display: flex;
+}
+
+.banner .title-banner h1{
+    font-size: 52px;
+}
+
+.banner p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.banner a{
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: var(--white-text);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 41px;
+}
+
+.banner a span{
+    margin-left: 8px;
+}
+
+.banner img{
+    width: 440px;
+    height: 414px;
+}
+
+/* companies logo section start*/
+.companies{
+    margin-top: 70px;
+    display: flex;
+} 
+
+.companies{
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to top, red,  rgba(0, 0, 0, 0)) 1 100%;
+}
+
+.companie img{
+    margin-right: 50px;
+    align-items: center;
 }
