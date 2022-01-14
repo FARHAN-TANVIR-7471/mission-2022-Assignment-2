@@ -1,0 +1,19 @@
+/* google fonts fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Yeseva+One&display=swap');
+
+/* common style var*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #AAAAAA;
+}
+
+:root{
+    --main-color: #E02C6D;
+    --box-shadow: 5px 5px 5px rgb(244, 238, 238);
+    --border-radius: 10px;
+}
+
+/* common style start*/
+main{
+    
+}
