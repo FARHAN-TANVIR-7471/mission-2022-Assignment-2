@@ -16,23 +16,9 @@ body{
     --main-with: 1047px;
 }
 
-/* menu bar */
-/* .menu-bar{
-    display: flex;
-}
-#menu-bar{
-    justify-content:space-between;
-}
 
-ul {
-    list-style-type: none;
-}
 
-li {
-    display: inline;
-} */
-
-/* common style start*/
+/* main section */
 main{
     display: flex;
     flex-direction: column;
@@ -43,6 +29,35 @@ main{
     max-width: var(--main-with);
 }
 
+/* menu bar */
+.navbar{
+    width: 1000px;
+}
+.menu-logo{
+    width: 50%;
+    float: left;
+}
+
+.menu-item{
+    width: 50%;
+    float: right;
+}
+
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
 
 /* banner style start */
 .banners{
@@ -214,6 +229,16 @@ footer{
     .container{
         width: 90%;
     }
+    .menu-logo{
+        text-align: center;
+    }
+    .menu-logo h2{
+        font-size: 16px;
+    }
+
+    .mobile-hidden{
+        display: none;
+    }
 
     .banners{
         flex-direction: column;
@@ -279,6 +304,10 @@ footer{
 @media only screen and (min-width:689px) and (max-width:992px){
     .container{
         width: 90%;
+    }
+
+    .mobile-hidden{
+        display: none;
     }
 
     .banners{
