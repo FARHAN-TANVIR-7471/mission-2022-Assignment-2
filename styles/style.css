@@ -16,6 +16,22 @@ body{
     --main-with: 1047px;
 }
 
+/* menu bar */
+/* .menu-bar{
+    display: flex;
+}
+#menu-bar{
+    justify-content:space-between;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+} */
+
 /* common style start*/
 main{
     display: flex;
@@ -26,6 +42,7 @@ main{
 .container{
     max-width: var(--main-with);
 }
+
 
 /* banner style start */
 .banners{
@@ -140,6 +157,41 @@ main{
 .see-more a{
     text-decoration: none;
     color: var(--main-color);
+}
+
+/* news laller  */
+.news-latter{
+    text-align: center;
+}
+
+.news-latter-form{
+    margin-bottom: 70px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: var(--main-color);
+    color: var(--white-text);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.instruction{
+    color: rgb(99, 99, 99);
 }
 
 /* footter section start  */
