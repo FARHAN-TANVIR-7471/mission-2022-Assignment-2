@@ -77,3 +77,55 @@ main{
     margin-right: 50px;
     align-items: center;
 }
+
+/* mopbile device */
+@media only screen and (max-width:688px){
+    .container{
+        width: 90%;
+    }
+
+    .banners{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner .title-banner h1{
+        font-size: 25px;
+    }
+    
+    .banner p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .banner img{
+        width: 250px;
+        height: 250px;
+    }
+
+    /* .companies{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+    } */
+
+    /* .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .player, .blog{
+        flex-direction: column;
+    } */
+}
+
+/* tab device */
+
+@media only screen and (min-width:689px) and (max-width:992px){
+    .container{
+        width: 90%;
+    }
+
+    .banners{
+
+    }
+}
