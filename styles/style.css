@@ -146,9 +146,15 @@ main{
 footer{
     text-align: center;
     background-color: black;
-    color: whitesmoke;
+    color: var(--white-text);
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: var(--white-text);
+    margin-left: 5px;
 }
 
 /* mopbile device */
