@@ -137,10 +137,10 @@ main{
     text-align: right;
 }
 
-/* .see-more a{
+.see-more a{
     text-decoration: none;
     color: var(--main-color);
-} */
+}
 
 /* footter section start  */
 footer{
